@@ -1,11 +1,11 @@
 import React from 'react';
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
-import Home from './Pages/Auth/Home';
+import Home from './Pages/Home/Home';
 import Login from './Pages/Auth/Login';
 import SignUp from './Pages/Auth/SignUp';
 
 const App = () => {
-  return (
+  return ( 
     <>
     <BrowserRouter>
     <Routes>
@@ -15,7 +15,7 @@ const App = () => {
     </Routes>
     </BrowserRouter>
     
-    </>
+    </> 
   )
 }
 
